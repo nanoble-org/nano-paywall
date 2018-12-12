@@ -33,15 +33,19 @@ Go to WordPress admin > Nano Paywall to edit the default values for the plugin. 
 ## FAQs
 
 **After someone pays, how long do they have access to the content?**
+
 As this is only a proof-of-concept the payment confirmation is stored in the browser session,s o the user only has access while this session is active.  If they close their browser and re-open it they will be asked to pay again.
 
 **Can I use this on my site?**
+
 This is available for use under the MIT License (see below), but as it is just a proof-of-concept please proceed with caution on a production site. We are not responsible for any issues or loss of funds.  Make sure to update the default Information details with any disclaimer information as well.
 
 **How small of payments can this handle?**
+
 Currently the amounts are set in Nano and can be properly configured to 6 points of precision behind the decimal place. So the smallest fee would be 0.000001 Nano.  With any small amounts it is recommneded you test with various wallets to ensure they all work for your use case.
 
 **Do I have to sign up with BrainBlocks to use this?**
+
 No, BrainBlocks does not currently require sign up to use as a Nano payment capture method. Please consult your local laws before accepting Nano.
 
 ## License & Disclaimer
