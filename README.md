@@ -4,6 +4,16 @@
 
 Want to get paid in Nano for your digital content? Using the BrainBlocks payment service, the Nano Paywall WordPress plugin allows you to easily wrap your content in shortcodes that require payment in Nano to unlock access to the content.  This is mainly a proof-of-concept to show the microtransaction capabilities of the Nano currency, so use accordingly (see license details below).
 
+## Installation
+
+1. Download the plugin files
+1. Create a .zip file from the nano-paywall folder
+1. From WordPress admin, go to Plugins > Add New > Upload Plugin button
+1. Choose the .zip file
+1. Activate the plugin
+1. Setup default settings in Nano Paywall menu
+1. Wrap your content in the shortcode details listed above
+
 ## Default Settings
 
 Go to WordPress admin > Nano Paywall to edit the default values for the plugin.  These can be overwritten by parameters in the shortcode (see below).
@@ -19,16 +29,6 @@ Go to WordPress admin > Nano Paywall to edit the default values for the plugin. 
 * `[nano_paywall amount="0.1"]` - overwrite the default amount
 * `[nano_paywall description="This is a description of the content behind the paywall"]` - overwrite the default description
 * `[nano_paywall info="This disclaimer shows up when clicking on the info button"]` - overwrite the default info details
-
-## Installation
-
-1. Download the plugin files
-1. Create a .zip file from the nano-paywall folder
-1. From WordPress admin, go to Plugins > Add New > Upload Plugin button
-1. Choose the .zip file
-1. Activate the plugin
-1. Setup default settings in Nano Paywall menu
-1. Wrap your content in the shortcode details listed above
 
 ## FAQs
 
